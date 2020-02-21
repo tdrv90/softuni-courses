@@ -1,0 +1,5 @@
+Kinvey.init({
+  instanceId: 'undefined',
+  appKey: 'kid_S12Lf50oB',
+  appSecret: '3274b04979da4751a9a1460e78082df6'
+});

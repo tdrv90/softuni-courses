@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+div {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+p {
+    color: darkviolet;
+}
+
+li {
+    border: 3px solid yellow;
+}
+
+span {
+    border-style: dotted;
+    border-color: darkcyan;
+}
+
+section div {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid yellow;
+    padding: 20px;
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.grey {
+    background-color: grey;
+}
