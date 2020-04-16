@@ -1,16 +1,21 @@
-queue = []
-paid_queue = []
+from collections import deque
 
-while True:
-    command = input()
 
-    if command == 'End':
+def supermarket():
+    names = deque()
 
-        [print(x) for x in paid_queue[::-1]]
-        print(f'{len(queue)} people remaining.')
-        break
-    if command != 'Paid':
-        queue.append(command)
-    elif command == 'Paid':
-        while queue:
-            paid_queue.append(queue.pop())
+    while True:
+        command = input()
+
+        if command == 'End':
+            print(f'{len(names)} people remaining.')
+            break
+
+        if command == 'Paid':
+            while names:
+                print(names.popleft())
+        else:
+            names.append(command)
+
+
+supermarket()
